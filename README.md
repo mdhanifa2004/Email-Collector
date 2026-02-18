@@ -36,9 +36,10 @@ After launching, open the local URL shown by Streamlit (typically `http://localh
 ## How to use
 
 1. Upload a domain list (`.txt` or `.csv`) and/or paste domains in the text area.
-2. Click **Run collection**.
-3. Review the table: `Domain | DMARC Policy | Extracted Emails`.
-4. Click **Download extracted emails CSV** to export results.
+2. (Optional) tune **Parallel workers** for faster crawling.
+3. Click **Run collection**.
+4. Review the table: `Domain | DMARC Policy | Extracted Emails`.
+5. Click **Download extracted emails CSV** to export results.
 
 ## Input formats
 
